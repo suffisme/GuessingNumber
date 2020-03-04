@@ -5,4 +5,4 @@
 The App also takes care of the test cases.
 1) It checks if all six inputs are provided, else result is not displayed
 2) It also checks if all numbers given by user lie in the range of 0-50.
-3) If user enters enter a floating value, it converts it into its floor value.
+3) If user enters enter a floating value, it converts the corresponding float value into its floor value.
