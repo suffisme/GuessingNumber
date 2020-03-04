@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">	
+	<link rel="shortcut icon" href="icon.png">
+
+</head>
+
+<body>
+<div class="Application">
+	<div class="Heading" >THE NUMBER GUESSING GAME</div>
+	<div class="instructions">
+		<p>
+			Guess 6 Numbers Between 0 to 50 (both inclusive).<br>And Check If Your Luck Works...
+		</p>
+	</div>
+	<div class="Numbers">
+		<input type="text" id="number1" placeholder="number1">
+		<input type="text" id="number2" placeholder="number2">
+		<input type="text" id="number3" placeholder="number3">
+		<input type="text" id="number4" placeholder="number4">
+		<input type="text" id="number5" placeholder="number5">
+		<input type="text" id="number6" placeholder="number6">
+		<button onclick="check();" class="submit">Check If You Are Lucky</button>
+	</div>
+</div>
+
+<div class="Result">
+	<img src="guess.png" id='img'><br>
+	<p class="res" id="res"></p>
+</div>
+
+<div class="footer-main">
+	<br>Designed and Presented By :<br>
+	Mohd Sufiyan Ansari <br> 1st Year B.Tech <br> National Institute of Technology,Warangal
+</div>
+<script type="text/javascript"  src="javascript.js"></script>
+
+</body>
+</html>
