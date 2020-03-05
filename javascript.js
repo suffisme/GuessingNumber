@@ -1,5 +1,5 @@
 var arr = ['','','','','','']
-alert("You Have To Guess 6 Numbers between 0 and 50 (both inclusive). And System will choose A Random Number in the same range. If your one of the guesses is same as the number chosen by computer. YOU ARE WINNER. \n1. Dont Leave Any Space Blank!!! \n2. Don't Go Beyond Range. \n3. Floating Values will be changed to its floor value")
+alert("You Have To Guess 6 Numbers between 0 and 50 (both inclusive). And System will choose A Random Number in the same range. If your one of the guesses is same as the number chosen by computer. YOU ARE WINNER. \n1. Dont Leave Any Space Blank!!! \n2. Don't Go Beyond Range. \n3. Floating Values will be changed to its floor value \nNOTE For Developer : Check Console To See Random Number")
 
 const myFunction1 = () => {
   var x = document.getElementById("number1")
