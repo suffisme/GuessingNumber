@@ -42,12 +42,12 @@ const num=parseInt(50*Math.random())
 console.log(`Random Number Generated : ${num}`)
 const winner = () =>{
 	document.getElementById('img').src="win.jpg"
-	document.getElementById('res').innerHTML=str + "<b>" + String(num) + "</b><br>" + "CONGRATULATIONS YOU ARE OUR LUCKY WINNER." + "<br>" + "YOU GUESSED IT RIGHT"
+	document.getElementById('res').innerHTML=str + "<b>" + String(num) + "</b><br><br>" + "CONGRATULATIONS YOU ARE OUR LUCKY WINNER." + "<br>" + "YOU GUESSED IT RIGHT"
 }
 
 const loser = () =>{
 	document.getElementById('img').src="lose.jpg"
-	document.getElementById('res').innerHTML=str + String(num) + "<br>OOOPS<br>" + "BETTER LUCK NEXT TIME"
+	document.getElementById('res').innerHTML=str + String(num) + "<br><br>OOOPS<br>" + "BETTER LUCK NEXT TIME"
 }
 
 const errorDetect1 = () =>{
